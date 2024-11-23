@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/page.css">
+</head>
+
+<body>
+    <header class="mb-4">
+        <nav class="navbar navbar-expand-lg py-2 mb-2 bg-body-tertiary">
+            <div class="container-lg p-2 d-flex justify-content-between">
+
+                <a href="../index.html" class="me-4">
+                    <img src="./assets/image/FASCO.png" alt="FASCO logo" class="img-fluid" style="height: 40px;">
+                </a>
+
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="../product/product.html">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="d-flex align-items-center">
+                    <a href="#" class="btn px-2 text-dark me-3">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#" class="btn px-2 text-dark me-3">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                    <a href="#" class="btn px-2 text-dark me-3">
+                        <i class="fa-regular fa-star"></i>
+                    </a>
+                    <a href="../cart/cart.html" class="btn px-2 text-dark">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="bg-light py-4">
+            <div class="container">
+                <div class="row justify-content-center align-items-center text-center">
+                    <h1 class="text-dark mb-3">Fashion</h1>
+                    <div>
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item">
+                                <a class="text-decoration-none text-muted" href="../index.html">Home&#160;</a>
+                            </li>
+                            <li class=" text-muted" aria-current="page"> &#62; Fashion</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mb-5">
+                <div class="row d-flex justify-content-center flex-wrap">
+                    <div class="col-md-2">
+                        <h3 class="text-dark">Filters</h3>
+                        <hr class="mb-2" />
+                        <p class="text-dark fw-semibold">Size</p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="size-option rounded border mb-2 p-2">
+                                    <p class="text-muted text-center mb-0">S</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="size-option rounded border mb-2 p-2">
+                                    <p class="text-muted text-center mb-0">M</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="size-option rounded border mb-2 p-2">
+                                    <p class="text-muted text-center mb-0">L</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="size-option rounded border mb-2 p-2">
+                                    <p class="text-muted text-center mb-0">XL</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <p class="text-dark fw-semibold">Colors</p>
+                        <div class="row gap-2">
+                            <div class="rounded-circle bg-primary mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-success mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-danger mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-warning mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-danger-subtle mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-info-subtle mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-dark mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-dark-subtle mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-success mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-danger mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-warning mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-danger-subtle mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-info-subtle mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+                            <div class="rounded-circle bg-dark mb-2 p-2" style="height: 24px; width: 24px;">
+                            </div>
+
+                        </div>
+                        <hr />
+                        <p class="text-dark fw-semibold">Prices</p>
+                        <div class="row">
+                            <div class="col">
+                                <p class="text-muted">&#36;0&ndash;&#36;50 </p>
+                                <p class="text-muted">&#36;50&ndash;&#36;100 </p>
+                                <p class="text-muted">&#36;100&ndash;&#36;150 </p>
+                                <p class="text-muted">&#36;150&ndash;&#36;200 </p>
+                                <p class="text-muted">&#36;200&ndash;&#36;300 </p>
+                                <p class="text-muted">&#36;300&ndash;&#36;400 </p>
+                            </div>
+                        </div>
+                        <hr />
+                        <p class="text-dark fw-semibold">Brands</p>
+                        <div class="row">
+                            <p class="text-muted">Minimog </p>
+                            <p class="text-muted">Retrolie </p>
+                            <p class="text-muted">Brook </p>
+                            <p class="text-muted">Learts </p>
+                            <p class="text-muted">Vagabond </p>
+                            <p class="text-muted">Abby </p>
+                        </div>
+                        <hr />
+                        <p class="text-dark fw-semibold">Collections</p>
+                        <div class="row">
+                            <p class="text-muted">All products </p>
+                            <p class="text-muted">Best sellers </p>
+                            <p class="text-muted">New arrivals </p>
+                            <p class="text-muted">Accessories </p>
+                        </div>
+                        <hr />
+                        <p class="text-dark fw-semibold">Tags</p>
+                        <div class="row">
+                            <p class="text-muted">Fashion </p>
+                            <p class="text-muted">Hats </p>
+                            <p class="text-muted">Sandal </p>
+                            <p class="text-muted">Belt </p>
+                            <p class="text-muted">Bags </p>
+                            <p class="text-muted">Snacker </p>
+                            <p class="text-muted">Denim </p>
+                            <p class="text-muted">Minimog </p>
+                            <p class="text-muted">Vagabond </p>
+                            <p class="text-muted">Sunglasses </p>
+                            <p class="text-muted">Beachwear </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="container py-5">
+                            <div class="row" id="product-list">
+                            </div>
+                        </div>
+
+                        <ul id="pagination-controls" class="pagination">
+                            <li id="prev-btn" class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                            <li id="next-btn" class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="shadow">
+            <div class="row align-items-center my-5" style="background-color: #DADADA;">
+                <div class="col-md-6">
+                    <img src="../home/assets/image/peaky/peaky.png" class="img-fluid" alt="Peaky Blinders Outfit" id="productImage"/>
+                </div>
+                <div class="col-md-5">
+                    <span class="text-muted">Women Collection</span>
+                    <h2 class="text-dark" id="productName">Peaky Blinders</h2> 
+                    <a href="#" class="text-dark">DESCRIPTION</a>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis.</p>
+                    <p class="text-dark fs-3" id="productPrice">&#36;100.00</p>
+                    <a href="#" class="btn btn-dark text-white shadow" onclick="addToCart(event)">Buy Now</a> 
+                </div>
+            </div>
+            <div class="container py-3">
+                <div class="row align-items-center d-flex flex-wrap">
+                    <div class="col-auto">
+                        <img class="img-fluid" style="width: 56px;" src="./assets/image/peaky/1i.png"
+                            alt="High Quality Icon" />
+                    </div>
+                    <div class="col">
+                        <h4 class="text-dark mb-1">High Quality</h3>
+                            <p class="text-muted mb-0">Crafted from top materials</p>
+                    </div>
+                    <div class="col-auto">
+                        <img class="img-fluid" style="width: 56px;" src="./assets/image/peaky/2i.png"
+                            alt="High Quality Icon" />
+                    </div>
+                    <div class="col">
+                        <h4 class="text-dark mb-1">Warrany Protection</h3>
+                            <p class="text-muted mb-0">Over 2 years</p>
+                    </div>
+                    <div class="col-auto">
+                        <img class="img-fluid" style="width: 56px;" src="./assets/image/peaky/3i.png"
+                            alt="High Quality Icon" />
+                    </div>
+                    <div class="col">
+                        <h4 class="text-dark mb-1">Free Shippingy</h3>
+                            <p class="text-muted mb-0">Order over 150 $</p>
+                    </div>
+                    <div class="col-auto">
+                        <img class="img-fluid" style="width: 56px;" src="./assets/image/peaky/4i.png"
+                            alt="High Quality Icon" />
+                    </div>
+                    <div class="col">
+                        <h4 class="text-dark mb-1">24 / 7 Support</h3>
+                            <p class="text-muted mb-0">Dedicated support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container my-5">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <h2 class="text-dark mb-3 text-center">Follow Us On Instagram</h2>
+                        <p class="text-muted text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center align-items-center gap-2 flex-wrap my-5">
+                <img src="./assets/image/folowsec/6f.png" class="img-fluid rounded" style="width: 200px;"
+                    alt="Image 6" />
+                <img src="./assets/image/folowsec/1f.png" class="img-fluid rounded" style="width: 200px;"
+                    alt="Image 1" />
+                <img src="./assets/image/folowsec/2f.png" class="img-fluid rounded" style="width: 200px;"
+                    alt="Image 2" />
+                <img src="./assets/image/folowsec/3f.png" class="img-fluid rounded" style="width: 200px;"
+                    alt="Image 3" />
+                <img src="./assets/image/folowsec/4f.png" class="img-fluid rounded" style="width: 200px;"
+                    alt="Image 4" />
+                <img src="./assets/image/folowsec/5f.png" class="img-fluid rounded" style="width: 200px;"
+                    alt="Image 5" />
+                <img src="./assets/image/folowsec/7f.png" class="img-fluid rounded" style="width: 200px;"
+                    alt="Image 7" />
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-lg ">
+            <div class="row align-items-center ">
+                <div class="col-md-4">
+                    <img src="./assets/image/subscribesec/1sub.png" alt="Newsletter illustration" class="img" />
+                </div>
+
+                <div class="col-md-4 shadow p-3 mb-5 bg-body-tertiary rounded ">
+                    <h5 class="text-center fs-3">Subscribe To Our Newsletter</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis
+                        ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin.</p>
+                    <form>
+                        <div class="form-group py-2">
+                            <input type="email" class="form-control" id="email" placeholder="michael@ymail.com"
+                                aria-label="Email address">
+                        </div>
+                        <button type="submit" class="btn  bg-dark text-white">Subscribe Now</button>
+                    </form>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="./assets/image/subscribesec/2sub.png" alt="Subscribe banner" class="img" />
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 --bs-secondary-bg-rgb">
+            <div class="container-lg d-flex justify-content-between align-items-center">
+                <a href="../index.html" class="me-4">
+                    <img src="./assets/image/FASCO.png" alt="FASCO logo" class="img-fluid" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support Center</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Invoicing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contract</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="copyright text-center py-2 mb-2 bg-body-tertiary">
+            <p class="text-muted fs-6">Copyright © 2022 Xpro. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/page.js"></script>
+</body>
+
+</html>
