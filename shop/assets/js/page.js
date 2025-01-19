@@ -150,3 +150,9 @@ function addToCart(event) {
     console.log('Product added to cart:', product);
     window.location.href = '../cart/cart.html';
 }
+
+$(document).ready(function () {
+    $('.ff').click(function () {
+        $('.active').toggle(1000);
+    });
+});

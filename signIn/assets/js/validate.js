@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener('submit', function(event) {
         if (!validatePasswords()) {
             event.preventDefault(); 
+
+
         }
     });
 });
