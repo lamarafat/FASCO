@@ -1,5 +1,5 @@
 const countDown = () => {
-    const countDownDate = new Date("2024-12-31T00:00:00Z").getTime();
+    const countDownDate = new Date("2025-02-28T00:00:00Z").getTime();
     const now = new Date().getTime();
     const distance = countDownDate - now;
     if (distance < 0) {
